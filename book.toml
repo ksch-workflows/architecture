@@ -1,0 +1,17 @@
+[book]
+authors = ["John Doe"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Example Architecture"
+
+[build]
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/example-org/example-repo/issues"
+edit-url-template = "https://github.com/example-org/example-repo/issues/new?title=[{path}]"
+
+[output.html.fold]
+enable = true
+level = 0
