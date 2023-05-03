@@ -1,6 +1,6 @@
-# TBD Architecture Documentation
+# K.S.C.H. Workflows Architecture
 
-This repository contains an architecture documentation for the TDB project, based on the [arc42](https://arc42.org/overview) template.
+This repository contains the architecture documentation for the K.S.C.H. Workflows project, based on the [arc42](https://arc42.org/overview) template.
 
 ## Introduction
 
