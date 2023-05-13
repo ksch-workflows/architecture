@@ -163,17 +163,17 @@ So, it is possible to declare OpenAPI Specifications (OAS) in a plain text file 
 <hr />
 <h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
 <p>The <a href="https://github.com/ksch-workflows/backend">backend</a> component offers a <a href="https://www.restapitutorial.com/lessons/whatisrest.html">REST API</a> for the frontend components like for example <a href="https://github.com/ksch-workflows/registration-desk">registration-desk</a>.
-Inside the <a href="https://github.com/ksch-workflows/backend">backend</a> there are for example the sub-components <code>ksch.patientmanagement.impl</code> and <code>test</code>. The <code>ksch.patientmanagement.iml</code> components defines the REST handlers which will process the requests from the API clients.</p>
+Inside the <a href="https://github.com/ksch-workflows/backend">backend</a> there are for example the sub-components <code>ksch.patientmanagement.impl</code> and <code>test</code>. The <code>ksch.patientmanagement.iml</code> component defines the REST handlers which will process the requests from the API clients.</p>
 <p>The <code>test</code> component defines various utilities which can be used for the internal tests of the other components.
-It has a dependency on Atlassian's open source project <a href="https://bitbucket.org/atlassian/swagger-request-validator">swagger-request-validator</a> and defines a utitlity class for its initialisation.
-The internal tests of <code>ksch.patientmanagement.impl</code> components leverage the functionality of <a href="https://bitbucket.org/atlassian/swagger-request-validator">swagger-request-validator</a> to verifiy that the test requests and responses match with the API structure defined in the OAS.</p>
-<p>The <a href="https://github.com/ksch-workflows/registration-desk">registration-desk</a> uses the Dart library <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> for accessing the REST API. Currently the code of that component is manually created. Later on, the Dart code in the <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> component could be generated from the <code>openapi.yml</code> file.</p>
+It has a dependency on Atlassian's open-source project <a href="https://bitbucket.org/atlassian/swagger-request-validator">swagger-request-validator</a> and defines a utility class for its initialisation.
+The internal tests of <code>ksch.patientmanagement.impl</code> components leverage the functionality of <a href="https://bitbucket.org/atlassian/swagger-request-validator">swagger-request-validator</a> to verify that the test requests and responses match with the API structure defined in the OAS.</p>
+<p>The <a href="https://github.com/ksch-workflows/registration-desk">registration-desk</a> uses the Dart library <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> for accessing the REST API. Currently, the code of that component is manually created. Later on, the Dart code in the <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> component could be generated from the <code>openapi.yml</code> file.</p>
 <p>The structures described above are visualised with the following <a href="https://www.visual-paradigm.com/VPGallery/diagrams/Component.html">UML Component Diagram</a>:</p>
 <p><img src="./img/overview.drawio.png" alt="diagram: overview.drawio" /></p>
 <h2 id="api-design-process"><a class="header" href="#api-design-process">API design process</a></h2>
 <p>The idea of the API design process is to create the &quot;spec first&quot; and afterwards the implementation.
-So, if the maintainer of frontend clients need a change in the <a href="https://github.com/ksch-workflows/backend">backend</a> API, they can make a proposal for a change in the <code>openapi.yml</code>.
-Once there is an agreement on the change to the OSA, the <a href="https://github.com/ksch-workflows/backend">backend</a> maintainer and the frontend client mainainers can work in parallel on the new feature.</p>
+So, if the maintainers of frontend clients need a change in the <a href="https://github.com/ksch-workflows/backend">backend</a> API, they can propose a change in the <code>openapi.yml</code>.
+Once there is an agreement on the change to the OSA, the <a href="https://github.com/ksch-workflows/backend">backend</a> maintainer and the frontend client maintainers can work in parallel on the new feature.</p>
 <p><strong>Also see</strong></p>
 <ul>
 <li><a href="https://www.atlassian.com/blog/technology/spec-first-api-development">Using spec-first API development for speed and sanity | atlassian.com</a></li>
