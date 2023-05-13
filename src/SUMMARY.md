@@ -4,6 +4,7 @@
 - [Constraints](./constraints/index.md)
 - [Context and Scope](./context-and-scope/index.md)
 - [Solution Strategy](./solution-strategy/index.md)
+  - [OpenAPI](./solution-strategy/openapi/index.md)
 - [Building Block View](./building-block-view/index.md)
 - [Runtime View](./runtime-view/index.md)
 - [Deployment View ](./deployment-view/index.md)

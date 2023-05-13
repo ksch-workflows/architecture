@@ -3,8 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>K.S.C.H. Workflows Architecture</title>
-        <meta name="robots" content="noindex" />
+        <title>OpenAPI - K.S.C.H. Workflows Architecture</title>
 
 
         <!-- Custom HTML head -->
@@ -14,21 +13,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
 
         <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
 
         <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
 
@@ -36,7 +35,7 @@
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
-            var path_to_root = "";
+            var path_to_root = "../../";
             var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
@@ -82,7 +81,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="overview/index.html">Overview</a></li><li class="chapter-item "><a href="introduction-and-goals/index.html"><strong aria-hidden="true">1.</strong> Introduction and Goals</a></li><li class="chapter-item "><a href="constraints/index.html"><strong aria-hidden="true">2.</strong> Constraints</a></li><li class="chapter-item "><a href="context-and-scope/index.html"><strong aria-hidden="true">3.</strong> Context and Scope</a></li><li class="chapter-item "><a href="solution-strategy/index.html"><strong aria-hidden="true">4.</strong> Solution Strategy</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="solution-strategy/openapi/index.html"><strong aria-hidden="true">4.1.</strong> OpenAPI</a></li></ol></li><li class="chapter-item "><a href="building-block-view/index.html"><strong aria-hidden="true">5.</strong> Building Block View</a></li><li class="chapter-item "><a href="runtime-view/index.html"><strong aria-hidden="true">6.</strong> Runtime View</a></li><li class="chapter-item "><a href="deployment-view/index.html"><strong aria-hidden="true">7.</strong> Deployment View </a></li><li class="chapter-item "><a href="crosscutting-concepts/index.html"><strong aria-hidden="true">8.</strong> Crosscutting Concepts</a></li><li class="chapter-item "><a href="architectural-decisions/index.html"><strong aria-hidden="true">9.</strong> Architectural Decisions</a></li><li class="chapter-item "><a href="quality-requirements/index.html"><strong aria-hidden="true">10.</strong> Quality Requirements</a></li><li class="chapter-item "><a href="risks-and-technical-debt/index.html"><strong aria-hidden="true">11.</strong> Risks and Technical Debt</a></li><li class="chapter-item "><a href="glossary/index.html"><strong aria-hidden="true">12.</strong> Glossary</a></li><li class="chapter-item affix "><a href="imprint/index.html">Imprint</a></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../overview/index.html">Overview</a></li><li class="chapter-item "><a href="../../introduction-and-goals/index.html"><strong aria-hidden="true">1.</strong> Introduction and Goals</a></li><li class="chapter-item "><a href="../../constraints/index.html"><strong aria-hidden="true">2.</strong> Constraints</a></li><li class="chapter-item "><a href="../../context-and-scope/index.html"><strong aria-hidden="true">3.</strong> Context and Scope</a></li><li class="chapter-item expanded "><a href="../../solution-strategy/index.html"><strong aria-hidden="true">4.</strong> Solution Strategy</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../solution-strategy/openapi/index.html" class="active"><strong aria-hidden="true">4.1.</strong> OpenAPI</a></li></ol></li><li class="chapter-item "><a href="../../building-block-view/index.html"><strong aria-hidden="true">5.</strong> Building Block View</a></li><li class="chapter-item "><a href="../../runtime-view/index.html"><strong aria-hidden="true">6.</strong> Runtime View</a></li><li class="chapter-item "><a href="../../deployment-view/index.html"><strong aria-hidden="true">7.</strong> Deployment View </a></li><li class="chapter-item "><a href="../../crosscutting-concepts/index.html"><strong aria-hidden="true">8.</strong> Crosscutting Concepts</a></li><li class="chapter-item "><a href="../../architectural-decisions/index.html"><strong aria-hidden="true">9.</strong> Architectural Decisions</a></li><li class="chapter-item "><a href="../../quality-requirements/index.html"><strong aria-hidden="true">10.</strong> Quality Requirements</a></li><li class="chapter-item "><a href="../../risks-and-technical-debt/index.html"><strong aria-hidden="true">11.</strong> Risks and Technical Debt</a></li><li class="chapter-item "><a href="../../glossary/index.html"><strong aria-hidden="true">12.</strong> Glossary</a></li><li class="chapter-item affix "><a href="../../imprint/index.html">Imprint</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -114,11 +113,14 @@
                     <h1 class="menu-title">K.S.C.H. Workflows Architecture</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
                             <i id="print-button" class="fa fa-print"></i>
                         </a>
                         <a href="https://github.com/ksch-workflows/architecture/issues" title="Git repository" aria-label="Git repository">
                             <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/ksch-workflows/architecture/issues/new?title&#x3D;[src/solution-strategy/openapi/index.md]" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
                         </a>
 
                     </div>
@@ -146,57 +148,20 @@
 
                 <div id="content" class="content">
                     <main>
-                        <p>This website contains the software architecture documentation for the <a href="https://ksch-workflows.github.io">K.S.C.H. Workflows</a> project.</p>
-<h1 id="overview"><a class="header" href="#overview">Overview</a></h1>
-<p>The sections of the documentation are derived from the <a href="https://arc42.org/overview">arc42</a> template:</p>
-<div class="table-wrapper"><table><thead><tr><th><strong>#</strong></th><th><strong>Section</strong></th><th><strong>Scope</strong></th></tr></thead><tbody>
-<tr><td>1</td><td><a href="overview/../introduction-and-goals/index.html">Introduction and Goals</a></td><td>Requirements, stakeholder, (top) quality goals </td></tr>
-<tr><td>2</td><td><a href="overview/../constraints/index.html">Constraints</a></td><td>Technical and organizational constraints, conventions</td></tr>
-<tr><td>3</td><td><a href="overview/../context-and-scope/index.html">Context and Scope</a></td><td>Business and technical context, external interfaces</td></tr>
-<tr><td>4</td><td><a href="overview/../solution-strategy/index.html">Solution Strategy</a></td><td>Fundamental solution decisions and ideas</td></tr>
-<tr><td>5</td><td><a href="overview/../building-block-view/index.html">Building Block View</a></td><td>Abstractions of source code, black-/whiteboxes</td></tr>
-<tr><td>6</td><td><a href="overview/../runtime-view/index.html">Runtime View</a></td><td>Runtime scenarios: How do building blocks interact</td></tr>
-<tr><td>7</td><td><a href="overview/../deployment-view/index.html">Deployment View </a></td><td>Hardware and technical infrastructure, deployment</td></tr>
-<tr><td>8</td><td><a href="overview/../crosscutting-concepts/index.html">Crosscutting Concepts</a></td><td>Recurring solution approaches and patterns</td></tr>
-<tr><td>9</td><td><a href="overview/../architectural-decisions/index.html">Architectural Decisions</a></td><td>Important decisions</td></tr>
-<tr><td>10</td><td><a href="overview/../quality-requirements/index.html">Quality Requirements</a></td><td>Quality tree and quality scenarios</td></tr>
-<tr><td>11</td><td><a href="overview/../risks-and-technical-debt/index.html">Risks and Technical Debt</a></td><td>Known problems, risks and technical debt</td></tr>
-<tr><td>12</td><td><a href="overview/../glossary/index.html">Glossary</a></td><td>Definitions of important business and technical terms</td></tr>
-</tbody></table>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-and-goals"><a class="header" href="#introduction-and-goals">Introduction and Goals</a></h1>
-<h2 id="references"><a class="header" href="#references">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-1/">https://docs.arc42.org/section-1/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="constraints"><a class="header" href="#constraints">Constraints</a></h1>
-<h2 id="references-1"><a class="header" href="#references-1">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-2/">https://docs.arc42.org/section-2/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="context-and-scope"><a class="header" href="#context-and-scope">Context and Scope</a></h1>
-<h2 id="references-2"><a class="header" href="#references-2">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-3/">https://docs.arc42.org/section-3/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="solution-strategy"><a class="header" href="#solution-strategy">Solution Strategy</a></h1>
-<h2 id="references-3"><a class="header" href="#references-3">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-4/">https://docs.arc42.org/section-4/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="openapi"><a class="header" href="#openapi">OpenAPI</a></h1>
+                        <h1 id="openapi"><a class="header" href="#openapi">OpenAPI</a></h1>
 <p>OpenAPI is a standard for the specification of <a href="https://www.educative.io/blog/what-are-rest-apis">HTTP APIs</a>.
 It is designed to be readable both by humans and by machines.
 So, it is possible to declare OpenAPI Specifications (OAS) in a plain text file that can then be used by computer projects for validation and code generation.</p>
 <hr />
 <p><strong>Table of contents</strong></p>
 <ul>
-<li><a href="solution-strategy/openapi/index.html#overview">Overview</a></li>
-<li><a href="solution-strategy/openapi/index.html#design-process">Design process</a></li>
-<li><a href="solution-strategy/openapi/index.html#documentation">Documentation</a></li>
-<li><a href="solution-strategy/openapi/index.html#references">References</a></li>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#design-process">Design process</a></li>
+<li><a href="#documentation">Documentation</a></li>
+<li><a href="#references">References</a></li>
 </ul>
 <hr />
-<h2 id="overview-1"><a class="header" href="#overview-1">Overview</a></h2>
+<h2 id="overview"><a class="header" href="#overview">Overview</a></h2>
 <p>The <a href="https://github.com/ksch-workflows/backend">backend</a> component offers a <a href="https://www.restapitutorial.com/lessons/whatisrest.html">REST API</a> for the frontend components like for example <a href="https://github.com/ksch-workflows/registration-desk">registration-desk</a>.
 Inside the <a href="https://github.com/ksch-workflows/backend">backend</a> there are for example the sub-components <code>ksch.patientmanagement.impl</code> and <code>test</code>. The <code>ksch.patientmanagement.iml</code> components defines the REST handlers which will process the requests from the API clients.</p>
 <p>The <code>test</code> component defines various utilities which can be used for the internal tests of the other components.
@@ -204,7 +169,7 @@ It has a dependency on Atlassian's open source project <a href="https://bitbucke
 The internal tests of <code>ksch.patientmanagement.impl</code> components leverage the functionality of <a href="https://bitbucket.org/atlassian/swagger-request-validator">swagger-request-validator</a> to verifiy that the test requests and responses match with the API structure defined in the OAS.</p>
 <p>The <a href="https://github.com/ksch-workflows/registration-desk">registration-desk</a> uses the Dart library <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> for accessing the REST API. Currently the code of that component is manually created. Later on, the Dart code in the <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> component could be generated from the <code>openapi.yml</code> file.</p>
 <p>The structures described above are visualised with the following <a href="https://www.visual-paradigm.com/VPGallery/diagrams/Component.html">UML Component Diagram</a>:</p>
-<p><img src="solution-strategy/openapi/./img/overview.drawio.png" alt="diagram: overview.drawio" /></p>
+<p><img src="./img/overview.drawio.png" alt="diagram: overview.drawio" /></p>
 <h2 id="api-design-process"><a class="header" href="#api-design-process">API design process</a></h2>
 <p>The idea of the API design process is to create the &quot;spec first&quot; and afterwards the implementation.
 So, if the maintainer of frontend clients need a change in the <a href="https://github.com/ksch-workflows/backend">backend</a> API, they can make a proposal for a change in the <code>openapi.yml</code>.
@@ -216,58 +181,23 @@ Once there is an agreement on the change to the OSA, the <a href="https://github
 </ul>
 <h2 id="documentation"><a class="header" href="#documentation">Documentation</a></h2>
 <p>The <a href="https://github.com/ksch-workflows/backend">backend</a>'s <a href="https://api.experimental-software.com">API documentation</a> is generated from the OAS with the free plan of the SaaS service <a href="https://bump.sh/">bump.sh</a>.</p>
-<h2 id="references-4"><a class="header" href="#references-4">References</a></h2>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
 <ul>
 <li><a href="https://swagger.io/specification/v3/">OpenAPI Specification 3.0</a> </li>
 <li><a href="https://dev.to/janux_de/spring-adding-openapi-validation-to-mockmvc-tests-2p21">Spring: Adding OpenAPI validation to MockMVC tests | dev.to</a></li>
 </ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="building-block-view"><a class="header" href="#building-block-view">Building Block View</a></h1>
-<h2 id="references-5"><a class="header" href="#references-5">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-5/">https://docs.arc42.org/section-5/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="runtime-view"><a class="header" href="#runtime-view">Runtime View</a></h1>
-<h2 id="references-6"><a class="header" href="#references-6">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-6/">https://docs.arc42.org/section-6/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="deployment-view"><a class="header" href="#deployment-view">Deployment View</a></h1>
-<h2 id="references-7"><a class="header" href="#references-7">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-7/">https://docs.arc42.org/section-7/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="crosscutting-concepts"><a class="header" href="#crosscutting-concepts">Crosscutting Concepts</a></h1>
-<h2 id="references-8"><a class="header" href="#references-8">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-8/">https://docs.arc42.org/section-8/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="architectural-decisions"><a class="header" href="#architectural-decisions">Architectural Decisions</a></h1>
-<h2 id="references-9"><a class="header" href="#references-9">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-9/">https://docs.arc42.org/section-9/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="quality-requirements"><a class="header" href="#quality-requirements">Quality Requirements</a></h1>
-<h2 id="references-10"><a class="header" href="#references-10">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-10/">https://docs.arc42.org/section-10/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="risks-and-technical-debt"><a class="header" href="#risks-and-technical-debt">Risks and Technical Debt</a></h1>
-<h2 id="references-11"><a class="header" href="#references-11">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-11/">https://docs.arc42.org/section-11/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="glossary"><a class="header" href="#glossary">Glossary</a></h1>
-<h2 id="references-12"><a class="header" href="#references-12">References</a></h2>
-<ul>
-<li><a href="https://docs.arc42.org/section-12/">https://docs.arc42.org/section-12/</a></li>
-</ul>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="imprint"><a class="header" href="#imprint">Imprint</a></h1>
 
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../solution-strategy/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
 
+                            <a rel="next" href="../../building-block-view/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -275,7 +205,13 @@ Once there is an agreement on the change to the OSA, the <a href="https://github
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../solution-strategy/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
 
+                    <a rel="next" href="../../building-block-view/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
             </nav>
 
         </div>
@@ -288,21 +224,16 @@ Once there is an agreement on the change to the OSA, the <a href="https://github
         </script>
 
 
-        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
 
-        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
-        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
 
-        <script type="text/javascript">
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
-        </script>
 
     </body>
 </html>
