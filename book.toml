@@ -1,16 +1,16 @@
 [book]
-authors = ["John Doe"]
+authors = ["KS Plus e.V."]
 language = "en"
 multilingual = false
 src = "src"
-title = "Example Architecture"
+title = "K.S.C.H. Workflows Architecture"
 
 [build]
 create-missing = false
 
 [output.html]
-git-repository-url = "https://github.com/example-org/example-repo/issues"
-edit-url-template = "https://github.com/example-org/example-repo/issues/new?title=[{path}]"
+git-repository-url = "https://github.com/ksch-workflows/architecture/issues"
+edit-url-template = "https://github.com/ksch-workflows/architecture/issues/new?title=[{path}]"
 
 [output.html.fold]
 enable = true

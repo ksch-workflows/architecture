@@ -3,7 +3,7 @@ version: "3"
 services:
   mdbook:
     container_name: mdbook
-    image: peaceiris/mdbook:v0.4.15
+    image: peaceiris/mdbook:latest
     stdin_open: true
     tty: true
     ports:

@@ -1,4 +1,8 @@
+This website contains the software architecture documentation for the [K.S.C.H. Workflows](https://ksch-workflows.github.io) project.
+
 # Overview
+
+The sections of the documentation are derived from the [arc42](https://arc42.org/overview) template:
 
 | **#** | **Section**                                                      | **Scope**                                             |
 | ----- | ---------------------------------------------------------------- | ----------------------------------------------------- |
