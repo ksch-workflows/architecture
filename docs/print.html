@@ -82,7 +82,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item affix "><a href="overview/index.html">Overview</a></li><li class="chapter-item "><a href="introduction-and-goals/index.html"><strong aria-hidden="true">1.</strong> Introduction and Goals</a></li><li class="chapter-item "><a href="constraints/index.html"><strong aria-hidden="true">2.</strong> Constraints</a></li><li class="chapter-item "><a href="context-and-scope/index.html"><strong aria-hidden="true">3.</strong> Context and Scope</a></li><li class="chapter-item "><a href="solution-strategy/index.html"><strong aria-hidden="true">4.</strong> Solution Strategy</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="solution-strategy/openapi/index.html"><strong aria-hidden="true">4.1.</strong> OpenAPI</a></li></ol></li><li class="chapter-item "><a href="building-block-view/index.html"><strong aria-hidden="true">5.</strong> Building Block View</a></li><li class="chapter-item "><a href="runtime-view/index.html"><strong aria-hidden="true">6.</strong> Runtime View</a></li><li class="chapter-item "><a href="deployment-view/index.html"><strong aria-hidden="true">7.</strong> Deployment View </a></li><li class="chapter-item "><a href="crosscutting-concepts/index.html"><strong aria-hidden="true">8.</strong> Crosscutting Concepts</a></li><li class="chapter-item "><a href="architectural-decisions/index.html"><strong aria-hidden="true">9.</strong> Architectural Decisions</a></li><li class="chapter-item "><a href="quality-requirements/index.html"><strong aria-hidden="true">10.</strong> Quality Requirements</a></li><li class="chapter-item "><a href="risks-and-technical-debt/index.html"><strong aria-hidden="true">11.</strong> Risks and Technical Debt</a></li><li class="chapter-item "><a href="glossary/index.html"><strong aria-hidden="true">12.</strong> Glossary</a></li><li class="chapter-item affix "><a href="imprint/index.html">Imprint</a></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="overview/index.html">Overview</a></li><li class="chapter-item "><a href="01_introduction-and-goals/index.html"><strong aria-hidden="true">1.</strong> Introduction and Goals</a></li><li class="chapter-item "><a href="02_constraints/index.html"><strong aria-hidden="true">2.</strong> Constraints</a></li><li class="chapter-item "><a href="03_context-and-scope/index.html"><strong aria-hidden="true">3.</strong> Context and Scope</a></li><li class="chapter-item "><a href="04_solution-strategy/index.html"><strong aria-hidden="true">4.</strong> Solution Strategy</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="04_solution-strategy/ddd/index.html"><strong aria-hidden="true">4.1.</strong> Domain Driven Design</a></li><li class="chapter-item "><a href="04_solution-strategy/openapi/index.html"><strong aria-hidden="true">4.2.</strong> OpenAPI</a></li></ol></li><li class="chapter-item "><a href="05_building-block-view/index.html"><strong aria-hidden="true">5.</strong> Building Block View</a></li><li class="chapter-item "><a href="06_runtime-view/index.html"><strong aria-hidden="true">6.</strong> Runtime View</a></li><li class="chapter-item "><a href="07_deployment-view/index.html"><strong aria-hidden="true">7.</strong> Deployment View </a></li><li class="chapter-item "><a href="08_crosscutting-concepts/index.html"><strong aria-hidden="true">8.</strong> Crosscutting Concepts</a></li><li class="chapter-item "><a href="09_architectural-decisions/index.html"><strong aria-hidden="true">9.</strong> Architectural Decisions</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="09_architectural-decisions/2021/index.html"><strong aria-hidden="true">9.1.</strong> 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="09_architectural-decisions/2021/05/08/backend-architecture/index.html"><strong aria-hidden="true">9.1.1.</strong> Backend architecture</a></li><li class="chapter-item "><a href="09_architectural-decisions/2021/03/07/java-vs-kotlin/index.html"><strong aria-hidden="true">9.1.2.</strong> Java vs. Kotlin</a></li><li class="chapter-item "><a href="09_architectural-decisions/2021/03/05/backend-technoglogy/index.html"><strong aria-hidden="true">9.1.3.</strong> Backend technology</a></li><li class="chapter-item "><a href="09_architectural-decisions/2021/03/05/frontend-technology/index.html"><strong aria-hidden="true">9.1.4.</strong> Frontend technology</a></li></ol></li></ol></li><li class="chapter-item "><a href="10_quality-requirements/index.html"><strong aria-hidden="true">10.</strong> Quality Requirements</a></li><li class="chapter-item "><a href="11_risks-and-technical-debt/index.html"><strong aria-hidden="true">11.</strong> Risks and Technical Debt</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="11_risks-and-technical-debt/ivory-tower/index.html"><strong aria-hidden="true">11.1.</strong> Ivory tower</a></li><li class="chapter-item "><a href="11_risks-and-technical-debt/truck-factor/index.html"><strong aria-hidden="true">11.2.</strong> Truck factor</a></li><li class="chapter-item "><a href="11_risks-and-technical-debt/laws-and-regulations/index.html"><strong aria-hidden="true">11.3.</strong> Laws and regulations</a></li></ol></li><li class="chapter-item "><a href="12_glossary/index.html"><strong aria-hidden="true">12.</strong> Glossary</a></li><li class="chapter-item affix "><a href="imprint/index.html">Imprint</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -166,6 +166,13 @@
 </div><div style="break-before: page; page-break-before: always;"></div><h1 id="introduction-and-goals"><a class="header" href="#introduction-and-goals">Introduction and Goals</a></h1>
 <p><a href="https://ksch-workflows.github.io">K.S.C.H. Workflows</a> is a prototype for a custom-built hospital information system (HIS) for the <a href="https://kirpal-sagar.org/en/kirpal-charitable-hospital-en/">Kirpal Sagar Charitable Hospital</a>.</p>
 <p>For the time being it should be considered as academic endevour, aimed at learning to build solid software systems, outside of the commercial pressure of normal software projects and health care facilities.</p>
+<h2 id="quality-goals"><a class="header" href="#quality-goals">Quality goals</a></h2>
+<ul>
+<li>The software needs to be reliable. Thus the source code should have maximum simplicity.</li>
+<li>The software needs to be simple to operate, so that the KSCH staff can operate is by themselves.</li>
+<li>The software needs to be fast.</li>
+<li>There should be no vendor lock-in so that the KSCH doesn't have a strong binding dependency on any external company.</li>
+</ul>
 <h2 id="references"><a class="header" href="#references">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-1/">https://docs.arc42.org/section-1/</a></li>
@@ -185,6 +192,55 @@
 <ul>
 <li><a href="https://docs.arc42.org/section-4/">https://docs.arc42.org/section-4/</a></li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="domain-driven-design"><a class="header" href="#domain-driven-design">Domain Driven Design</a></h1>
+<h2 id="motivation"><a class="header" href="#motivation">Motivation</a></h2>
+<blockquote>
+<p>Form follows function</p>
+</blockquote>
+<p>The purpose of this software system is to support the day-to-day processes in the Kirpal Sagar Charitable Hospital.
+How the system is structured internally is a secondary matter.
+What is important is that it supports the functional and operational requirements of the hospital staff.
+Further, it is important that the system can be molded when there the requirements are changing.
+So when new developers are coming into the system, it should be fairly easy for them to add new features or adapt existing features.</p>
+<p>All software design patterns which are introduced need to be tested against this testing stone.</p>
+<h2 id="object-naming-conventions"><a class="header" href="#object-naming-conventions">Object naming conventions</a></h2>
+<h3 id="data-bag"><a class="header" href="#data-bag">Data bag</a></h3>
+<p>In every software system there are actors and work materials which manifest in various layers of the software.
+In each layer there is a different focus for what needs to be done with the data.</p>
+<ul>
+<li>In the persitence layer it needs to be mapped to the database structure.</li>
+<li>In the domain layer there are business processes which are working on the data.</li>
+<li>In the user interface layer the data gets received.</li>
+</ul>
+<p>In order to keep the different concerns distinct but still be able to keep them in sync, for every actor or work material there should be an interface which defines getter methods for the required data, e.g.</p>
+<pre><code class="language-java">public interface Patient {
+    Object getName();
+    Object getAge();
+    Object getGender();
+}
+</code></pre>
+<p>On this layer the abstract <code>Object</code> type is being used so that each layer can decide on its own what is the approperiate data type there, e.g. <code>getName()</code> can return <code>String</code> on the database layer and <code>Optional&lt;Name&gt;</code> on the business layer.</p>
+<h3 id="data-access-object"><a class="header" href="#data-access-object">Data Access Object</a></h3>
+<p>For the sake of convenience the object relational mapper JPA/Hibernate will be used in this project.
+The objects which will be mapped to the database columns will have the suffix &quot;Dao&quot;.</p>
+<p>The main idea here is to keep the JPA related annotations distinct from the classes which are used to process the business logic.</p>
+<p>In order to prevent a broad usage of those classes, they should be package private.</p>
+<p>Please note that this is a custom interpretation of the name &quot;Data Access Object&quot; which differs from <a href="https://www.baeldung.com/java-dao-pattern">common DAO pattern implementations</a>.
+So maybe in future this could be renamed.
+However, other possible terms for this design idea, e.g. &quot;Bean&quot;, might also invoke connotations to different concepts.</p>
+<h2 id="domain-events"><a class="header" href="#domain-events">Domain Events</a></h2>
+<ul>
+<li>https://martinfowler.com/eaaDev/DomainEvent.html</li>
+<li>https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation</li>
+<li>https://www.innoq.com/en/blog/domain-events-versus-event-sourcing/</li>
+</ul>
+<h2 id="references-4"><a class="header" href="#references-4">References</a></h2>
+<ul>
+<li>https://github.com/xmolecules/jmolecules</li>
+<li>https://www.reddit.com/r/learnjava/comments/b2h3pm/differences_between_java_bean_entity_class_dao/</li>
+<li>https://www.martinfowler.com/bliki/AnemicDomainModel.html</li>
+<li>https://en.wikipedia.org/wiki/Data_access_object</li>
+</ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="openapi"><a class="header" href="#openapi">OpenAPI</a></h1>
 <p>OpenAPI is a standard for the specification of <a href="https://www.educative.io/blog/what-are-rest-apis">HTTP APIs</a>.
 It is designed to be readable both by humans and by machines.
@@ -192,10 +248,10 @@ So, it is possible to declare OpenAPI Specifications (OAS) in a plain text file 
 <hr />
 <p><strong>Table of contents</strong></p>
 <ul>
-<li><a href="solution-strategy/openapi/index.html#overview">Overview</a></li>
-<li><a href="solution-strategy/openapi/index.html#design-process">Design process</a></li>
-<li><a href="solution-strategy/openapi/index.html#documentation">Documentation</a></li>
-<li><a href="solution-strategy/openapi/index.html#references">References</a></li>
+<li><a href="04_solution-strategy/openapi/index.html#overview">Overview</a></li>
+<li><a href="04_solution-strategy/openapi/index.html#design-process">Design process</a></li>
+<li><a href="04_solution-strategy/openapi/index.html#documentation">Documentation</a></li>
+<li><a href="04_solution-strategy/openapi/index.html#references">References</a></li>
 </ul>
 <hr />
 <h2 id="overview-1"><a class="header" href="#overview-1">Overview</a></h2>
@@ -206,7 +262,7 @@ It has a dependency on Atlassian's open-source project <a href="https://bitbucke
 The internal tests of <code>ksch.patientmanagement.impl</code> components leverage the functionality of <a href="https://bitbucket.org/atlassian/swagger-request-validator">swagger-request-validator</a> to verify that the test requests and responses match with the API structure defined in the OAS.</p>
 <p>The <a href="https://github.com/ksch-workflows/registration-desk">registration-desk</a> uses the Dart library <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> for accessing the REST API. Currently, the code of that component is manually created. Later on, the Dart code in the <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> component could be generated from the <code>openapi.yml</code> file.</p>
 <p>The structures described above are visualised with the following <a href="https://www.visual-paradigm.com/VPGallery/diagrams/Component.html">UML Component Diagram</a>:</p>
-<p><img src="solution-strategy/openapi/./img/overview.drawio.png" alt="diagram: overview.drawio" /></p>
+<p><img src="04_solution-strategy/openapi/./img/overview.drawio.png" alt="diagram: overview.drawio" /></p>
 <h2 id="api-design-process"><a class="header" href="#api-design-process">API design process</a></h2>
 <p>The idea of the API design process is to create the &quot;spec first&quot; and afterwards the implementation.
 So, if the maintainers of frontend clients need a change in the <a href="https://github.com/ksch-workflows/backend">backend</a> API, they can propose a change in the <code>openapi.yml</code>.
@@ -218,48 +274,415 @@ Once there is an agreement on the change to the OSA, the <a href="https://github
 </ul>
 <h2 id="documentation"><a class="header" href="#documentation">Documentation</a></h2>
 <p>The <a href="https://github.com/ksch-workflows/backend">backend</a>'s <a href="https://api.experimental-software.com">API documentation</a> is generated from the OAS with the free plan of the SaaS service <a href="https://bump.sh/">bump.sh</a>.</p>
-<h2 id="references-4"><a class="header" href="#references-4">References</a></h2>
+<h2 id="references-5"><a class="header" href="#references-5">References</a></h2>
 <ul>
 <li><a href="https://swagger.io/specification/v3/">OpenAPI Specification 3.0</a> </li>
 <li><a href="https://dev.to/janux_de/spring-adding-openapi-validation-to-mockmvc-tests-2p21">Spring: Adding OpenAPI validation to MockMVC tests | dev.to</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="building-block-view"><a class="header" href="#building-block-view">Building Block View</a></h1>
-<h2 id="references-5"><a class="header" href="#references-5">References</a></h2>
+<p><img src="05_building-block-view/img/building-blocks.drawio.png" alt="building blocks" /></p>
+<p>The <a href="https://github.com/ksch-workflows/backend">backend</a> provides a REST API which abstracts database access and
+business process validations for the client applications.</p>
+<p>All the client applications are <a href="https://flutter.dev">Flutter</a> apps.
+They are using the <a href="https://github.com/ksch-workflows/ksch-dart-client">ksch-dart-client</a> library for accessing the REST API
+of the backend.</p>
+<p>The <a href="https://github.com/ksch-workflows/registration-desk">registration-desk</a> is a Flutter Web app to be used at the
+registration desk of the KSCH.</p>
+<p>Later on there should also be a Flutter Web app for the pharmacy desk.</p>
+<p>Further, there should be a Flutter Android app for the hospital administrator.</p>
+<p>For the first experiments with the system, all the REST requests will be unauthenticated.
+When the system goes live, the requests should be authenticated using an
+API token aquired via an OAuth 2.1 authorization server.</p>
+<h2 id="references-6"><a class="header" href="#references-6">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-5/">https://docs.arc42.org/section-5/</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="runtime-view"><a class="header" href="#runtime-view">Runtime View</a></h1>
-<h2 id="references-6"><a class="header" href="#references-6">References</a></h2>
+<h2 id="references-7"><a class="header" href="#references-7">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-6/">https://docs.arc42.org/section-6/</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="deployment-view"><a class="header" href="#deployment-view">Deployment View</a></h1>
-<h2 id="references-7"><a class="header" href="#references-7">References</a></h2>
+<h2 id="development"><a class="header" href="#development">Development</a></h2>
+<p>The backend is hosted on the <a href="https://cloud.google.com/appengine/docs/java">Google App Engine</a>.</p>
+<p>The Flutter Web apps for the various work stations are hosted on GitHub pages.
+It might be better not to bundle those components during development, so that the online apps can be updated independently.
+This simplifies the continuous deployment process and shortes the build times and thus the feedback cycle.</p>
+<h2 id="staging"><a class="header" href="#staging">Staging</a></h2>
+<p>The final QA for production releases could be done with temporay VMs hosted on
+the <a href="https://www.digitalocean.com/">Digital Ocean</a> platform, using the same
+app structure like the production system.</p>
+<h2 id="production"><a class="header" href="#production">Production</a></h2>
+<p>The production system is started via Docker Compose with the following services:</p>
+<ul>
+<li>MySQL database</li>
+<li>backend</li>
+<li>for each Flutter Web app there is a separate HTTP service which hosts it</li>
+</ul>
+<p>Maybe the web apps could also be copied into the <code>src/main/resources/static</code>
+directory of the backend when it is compiled for production use.
+This would also make it possible to host the whole system on the Google App Engine
+which would have the advantage that it can be accessed by the doctors also
+from home. And if the system doesn't deal with medical records, the data
+should not be too sensitive to be hosted in a public cloud.</p>
+<p>Even if we use the cloud for the production system, it might be best to
+use Digital Ocean or plain VMs on the Google Cloud to keep the door open
+for self-hosted servers.
+Using the Google App Engine would simplify the operations, though.
+It takes care e.g. care of log storage and alerts.</p>
+<h2 id="references-8"><a class="header" href="#references-8">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-7/">https://docs.arc42.org/section-7/</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="crosscutting-concepts"><a class="header" href="#crosscutting-concepts">Crosscutting Concepts</a></h1>
-<h2 id="references-8"><a class="header" href="#references-8">References</a></h2>
+<h2 id="references-9"><a class="header" href="#references-9">References</a></h2>
 <ul>
+<li><a href="https://dev.to/janux_de/adding-links-to-a-rest-resource-without-the-resource-s-notice-k40">How links are added to REST resources across modules | dev.to</a></li>
 <li><a href="https://docs.arc42.org/section-8/">https://docs.arc42.org/section-8/</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="architectural-decisions"><a class="header" href="#architectural-decisions">Architectural Decisions</a></h1>
-<h2 id="references-9"><a class="header" href="#references-9">References</a></h2>
+<p>This section provides an overview over the rationale behind important structural decisions.</p>
+<ul>
+<li><a href="09_architectural-decisions/./2021/index.html">2021</a></li>
+</ul>
+<h2 id="references-10"><a class="header" href="#references-10">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-9/">https://docs.arc42.org/section-9/</a></li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="2021"><a class="header" href="#2021">2021</a></h1>
+<div class="table-wrapper"><table><thead><tr><th> <strong>Date</strong></th><th><strong>Subject</strong></th></tr></thead><tbody>
+<tr><td>08.05.2021</td><td><a href="09_architectural-decisions/2021/./2021/05/08/backend-architecture/index.html">Backend architecture</a> </td></tr>
+<tr><td>07.03.2021</td><td><a href="09_architectural-decisions/2021/./2021/03/07/java-vs-kotlin/index.html">Java vs. Kotlin</a> </td></tr>
+<tr><td>05.03.2021</td><td><a href="09_architectural-decisions/2021/./2021/03/05/backend-technoglogy/index.html">Backend technology</a> </td></tr>
+<tr><td>05.03.2021</td><td><a href="09_architectural-decisions/2021/./2021/03/05/frontend-technology/index.html">Frontend technology</a> </td></tr>
+</tbody></table>
+</div><div style="break-before: page; page-break-before: always;"></div><h1 id="java-application-architecture-style"><a class="header" href="#java-application-architecture-style">Java application architecture style</a></h1>
+<h2 id="context"><a class="header" href="#context">Context</a></h2>
+<p>There needs to be a concept for the module structure of the backend server.</p>
+<h3 id="design-goals"><a class="header" href="#design-goals">Design goals</a></h3>
+<ul>
+<li>The business logic of the software needs to be very flexible, so that it can be adjusted to changing requirements of the KSCH.</li>
+<li>The system needs to have good testability, so that there can be a very good test coverage for those business rules.</li>
+<li>Enable hobby developer to contribute to the project in limited spare time. In order to achieve this, the congnitive load for working on a part of the system needs to be reduced to the minimum.</li>
+<li>The system needs to be able to grow to support a wide range of functional requirements, so that it can potentially support all the IT based processes in the KSCH.</li>
+</ul>
+<h3 id="constraints-1"><a class="header" href="#constraints-1">Constraints</a></h3>
+<ul>
+<li>As programming language, Java should be used, since it will most likely be supported and have a large community over the next decade.</li>
+<li>As application framework, Spring should be used, since it allows to make rather fast progress with a very small development team.</li>
+<li>There will be only a single process running for the backend server, i.e. no microservice architecture. The reason for this to keep the operational complexity of the system at a level where the KSCH staff might operate the system independently.</li>
+</ul>
+<h2 id="alternatives"><a class="header" href="#alternatives">Alternatives</a></h2>
+<h3 id="a-gradle-based-modules"><a class="header" href="#a-gradle-based-modules">(A) Gradle based modules</a></h3>
+<p>The modules may be based on Gradle's multi-project builds.
+Every module can have two nested modules: one for the API and one for the implementation.
+If one module wants to use the API of another module, it will only be able to use the classes defined in the API submodule.</p>
+<h4 id="pros"><a class="header" href="#pros">Pros</a></h4>
+<ul>
+<li>Gradle features take care to limit cross-module access on the intended API and to avoid cyclic dependencies between modules.</li>
+<li>It is theoretically possible to automatically render module dependendency graphs by parsing the Gradle configuration.</li>
+<li>The system design can be understood by referencing to the Gradle documentation which is good.</li>
+<li>Once it Gradle parts are understood, it is fairly each to introduce new modules.</li>
+</ul>
+<h4 id="cons"><a class="header" href="#cons">Cons</a></h4>
+<ul>
+<li>In order to add new modulues, one needs to understand the Gradle project structure and then do a dozen of steps.</li>
+<li>Gradle makes regular breaking changes, which leads to maintenance efforts.</li>
+<li>There is no known example for a production system which was successful using this architecture.</li>
+<li>It is not yet clear how to manage database migrations with this architecture style.</li>
+</ul>
+<h4 id="references-11"><a class="header" href="#references-11">References</a></h4>
+<ul>
+<li>https://github.com/ksch-workflows/ksch-workflows</li>
+<li>https://docs.gradle.org/current/userguide/multi_project_builds.html</li>
+<li>https://dev.to/janux_de/building-a-greenfield-hospital-information-system-with-java-spring-boot-apache-wicket-and-gradle-4np1</li>
+<li>https://www.petrikainulainen.net/programming/gradle/getting-started-with-gradle-creating-a-multi-project-build/</li>
+<li>https://www.tutorialspoint.com/gradle/gradle_multi_project_build.htm</li>
+<li>https://spring.io/guides/gs/multi-module/</li>
+</ul>
+<h3 id="b-modulith"><a class="header" href="#b-modulith">(B) Modulith</a></h3>
+<p>The Moduliths project is an experimental approach to achieve a good modularization for monolithic Spring applications by <a href="https://github.com/odrotbohm">Oliver Drotbohm</a>.</p>
+<h4 id="pros-1"><a class="header" href="#pros-1">Pros</a></h4>
+<ul>
+<li>There is a low risk of the &quot;Architect's Ivory Tower&quot; where there is a &quot;Lack of Transparency&quot; of the system's architecture and a &quot;Lack of Understanding&quot; from the developers (see Knoernschild, p. 30 ff.).</li>
+<li>The concept addresses many common architectural problems: cyclic dendencies, complexity, ...</li>
+</ul>
+<h4 id="cons-1"><a class="header" href="#cons-1">Cons</a></h4>
+<ul>
+<li>Learning efforts for Maven and ArcUnit.</li>
+<li>Using this approach creates a depencency on a one-person project which might be abandoned at any time.</li>
+<li>The README introduces the project as &quot;A playground to build technology supporting the development of modular monolithic (modulithic) Java applications.&quot; So it looks rather like an experimentation ground than an estabilished pattern for production systems.</li>
+<li>It relies on conventions enforced by ArchUnit to provide access control. The api/implementation destincition from Gradle might make it clearer what is intended to be accessible or not.</li>
+<li>It assumes that the whole application is living a in a single Java package. The modules are then defined as subpackages. This creation a weaker demarkation line for modules than Maven or Gradle sub-projects.</li>
+</ul>
+<h4 id="references-12"><a class="header" href="#references-12">References</a></h4>
+<ul>
+<li>https://github.com/odrotbohm/moduliths</li>
+<li>https://www.youtube.com/results?search_query=modulith+drotbohm</li>
+<li>https://github.com/st-tu-dresden/salespoint</li>
+<li>Knoernschild: Java Application Architecture, Kirk Knoernschild</li>
+</ul>
+<h3 id="c-buckpal"><a class="header" href="#c-buckpal">(C) Buckpal</a></h3>
+<p>The Buckpal project is a reference implementation of the clean architecture principles by <a href="https://github.com/thombergs">Tom Hombergs</a>.</p>
+<h4 id="pros-2"><a class="header" href="#pros-2">Pros</a></h4>
+<ul>
+<li>Clear application structure based on the &quot;Hexagonal architecture&quot; design which may be considered as &quot;best practice&quot;.</li>
+</ul>
+<h4 id="cons-2"><a class="header" href="#cons-2">Cons</a></h4>
+<ul>
+<li>The example application is for a rather small domain. So it is not clear how this application style will scale for large domains.</li>
+</ul>
+<h4 id="references-13"><a class="header" href="#references-13">References</a></h4>
+<ul>
+<li>https://github.com/thombergs/buckpal</li>
+<li>https://www.amazon.de/dp/B07YFS3DNF/ref=dp-kindle-redirect?_encoding=UTF8&amp;btkr=1</li>
+</ul>
+<h3 id="d-leasing-ninja"><a class="header" href="#d-leasing-ninja">(D) Leasing Ninja</a></h3>
+<p>The Leasing Ninja project is a reference implementation of domain-driven design principles by <a href="https://github.com/hschwentner">Henning Schwentner</a>.</p>
+<h4 id="pros-3"><a class="header" href="#pros-3">Pros</a></h4>
+<ul>
+<li>Clear separation of concerns</li>
+<li>Clear modularization</li>
+<li>Support for domain driven design principles</li>
+</ul>
+<h4 id="cons-3"><a class="header" href="#cons-3">Cons</a></h4>
+<blockquote>
+<p>Interesting advice about Java Module System by @joshbloch in Effective Java 3rd edition: &quot;It is too early to say whether modules will achieve widespread use outside of the JDK itself. In the meantime, it seems best to avoid them unless you have a compelling need.&quot; - <a href="https://twitter.com/lucianct2k2/status/1029669555055022080">twitter.com</a></p>
+</blockquote>
+<h4 id="references-14"><a class="header" href="#references-14">References</a></h4>
+<ul>
+<li>https://github.com/leasingninja/leasingninja-java-boundedcontexts-domainmodel</li>
+<li>https://leasingninja.github.io/</li>
+<li>https://blog.plan99.net/is-jigsaw-good-or-is-it-wack-ec634d36dd6f</li>
+<li>https://trishagee.github.io/presentation/real_world_java_9/</li>
+<li>https://developer.ibm.com/languages/java/tutorials/java-modularity-1/</li>
+<li>Effective Java, Edition 3, Joshua Bloch, Item 15.</li>
+<li>reasons for low adoption of JPMS - https://youtu.be/YYvc-DNuwr8?t=1272</li>
+</ul>
+<h3 id="e-osgi"><a class="header" href="#e-osgi">(E) OSGi</a></h3>
+<h4 id="pros-4"><a class="header" href="#pros-4">Pros</a></h4>
+<ul>
+<li>Strong modularization support</li>
+<li>Enables a plugin system</li>
+</ul>
+<h4 id="cons-4"><a class="header" href="#cons-4">Cons</a></h4>
+<ul>
+<li>No direct Spring support (see https://docs.spring.io/spring-osgi/)</li>
+<li>Not all Java libraries cannot be used out of the box, but they need to be compiled specifically for OSGi.</li>
+<li>High learning effort</li>
+<li>It's rather a non-mainstream technologies which stands in the way for getting more developers for the system.</li>
+</ul>
+<h4 id="references-15"><a class="header" href="#references-15">References</a></h4>
+<ul>
+<li>https://en.wikipedia.org/wiki/OSGi</li>
+</ul>
+<h2 id="decision"><a class="header" href="#decision">Decision</a></h2>
+<p>A combination of option A and option D seems most promising.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="use-java-instead-of-kotlin"><a class="header" href="#use-java-instead-of-kotlin">Use Java instead of Kotlin</a></h1>
+<h2 id="context-1"><a class="header" href="#context-1">Context</a></h2>
+<p>Kotlin tries to solve some of the problem in the design of the Java programming language.
+There are many senior developers which advocate to use Kotlin over Java.
+Also it is preferred by many mid-level developers.</p>
+<h2 id="alternatives-1"><a class="header" href="#alternatives-1">Alternatives</a></h2>
+<h3 id="a-java"><a class="header" href="#a-java">(A) Java</a></h3>
+<h4 id="pros-5"><a class="header" href="#pros-5">Pros</a></h4>
+<ul>
+<li>Very broadly used</li>
+<li>Many tools which support the language</li>
+<li>Lots of tutorials</li>
+</ul>
+<h4 id="cons-5"><a class="header" href="#cons-5">Cons</a></h4>
+<ul>
+<li>Verbose syntax</li>
+<li>No null safety</li>
+</ul>
+<h3 id="b-kotlin"><a class="header" href="#b-kotlin">(B) Kotlin</a></h3>
+<h4 id="pros-6"><a class="header" href="#pros-6">Pros</a></h4>
+<ul>
+<li>Null safety</li>
+<li>Good reputation</li>
+<li>Enables to write elegant code</li>
+</ul>
+<h4 id="cons-6"><a class="header" href="#cons-6">Cons</a></h4>
+<ul>
+<li>Pushes for certain design ideas (e.g. no inheritance possible by default)</li>
+<li>It adds an additional layer on top of Java which increases the complexity</li>
+<li>In some edge cases this abstraction layer in incomplete and workaround are needed</li>
+<li>The documentation of the standard libraries is pretty abstract</li>
+</ul>
+<h2 id="decision-1"><a class="header" href="#decision-1">Decision</a></h2>
+<p>Java will be used for the sake of its simplicity.
+This will enable more people to work on it.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="use-google-app-engine-for-the-deployment-of-the-staging-environment"><a class="header" href="#use-google-app-engine-for-the-deployment-of-the-staging-environment">Use Google App Engine for the deployment of the staging environment</a></h1>
+<h2 id="context-2"><a class="header" href="#context-2">Context</a></h2>
+<p>In order to iterative development cycles for acceptance testing and user experience design, it is necessary provide the software in a publicly accessible domain.
+Since the instance will only be sporadicly used at random times, having an always online instance hosted on a rented virtual machine would be wasteful.</p>
+<h2 id="alternatives-2"><a class="header" href="#alternatives-2">Alternatives</a></h2>
+<h3 id="a-aws-lambda"><a class="header" href="#a-aws-lambda">(A) AWS Lambda</a></h3>
+<h4 id="pros-7"><a class="header" href="#pros-7">Pros</a></h4>
+<ul>
+<li>AWS offers lots of powerful features to build web applications.</li>
+<li>The usage based pricing plans lead to fair operational costs.</li>
+</ul>
+<h4 id="cons-7"><a class="header" href="#cons-7">Cons</a></h4>
+<ul>
+<li>Requires much learning to get used to the serverless paradigm.</li>
+<li>Using MySQL from Dart would require a package which is licensed with a copyleft license (GPL).</li>
+<li>Using AWS' DynamoDB would require much learning to get used to the NoSQL paradigm.</li>
+<li>Using Spring on AWS is possible to seems like not a good idea because of Java/Spring warm start is required.</li>
+<li>Using AWS Lambda creates vendor lock-in which makes it difficult to switch to another deployment platform later on.</li>
+</ul>
+<h4 id="references-16"><a class="header" href="#references-16">References</a></h4>
+<ul>
+<li><a href="https://www.amazon.de/dp/1789958350/ref=sspa_dk_detail_0?psc=1&amp;pd_rd_i=1789958350p13NParams&amp;spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE1SEhNMk1JRExXT1QmZW5jcnlwdGVkSWQ9QTAzMTI4MDczQktJR1QxTExJS0Q5JmVuY3J5cHRlZEFkSWQ9QTAzODEzMzkyM09TSUY5VUVMTElKJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">Learn AWS Serverless Computing: A beginner's guide to using AWS Lambda, Amazon API Gateway, and services from Amazon Web Services</a></li>
+<li><a href="https://www.coursera.org/projects/aws-lambda-and-api-gateway-basics-build-serverless-website">AWS Lambda and API Gateway Basics - Build Serverless website</a></li>
+<li><a href="https://www.udemy.com/course/aws-lambda-serverless/">AWS Lambda and the Serverless Framework Training | Udemy</a></li>
+<li><a href="https://www.udemy.com/course/aws-lambda-serverless-architecture/">AWS Lambda &amp; Serverless Architecture Bootcamp (Build 5 Apps) | Udemy</a></li>
+<li><a href="https://www.udemy.com/course/aws-serverless-a-complete-introduction/">AWS Serverless APIs &amp; Web Apps - A Complete Introduction | Udemy</a></li>
+</ul>
+<h3 id="b-google-cloud-functions"><a class="header" href="#b-google-cloud-functions">(B) Google Cloud Functions</a></h3>
+<ul>
+<li>https://github.com/GoogleCloudPlatform/functions-framework-dart</li>
+</ul>
+<h4 id="pros-8"><a class="header" href="#pros-8">Pros</a></h4>
+<ul>
+<li>It might be possible to use Dart both in the frontend and backend and thus have a simple system.</li>
+<li>Serverless computing can provide good performance with little operational effort.</li>
+</ul>
+<h4 id="cons-8"><a class="header" href="#cons-8">Cons</a></h4>
+<ul>
+<li>The Dart support is a prototype, at the moment.</li>
+<li>The maintainers of the project give feedback on pull requests or issues with low priority. E.g. there is no comment on <a href="https://github.com/GoogleCloudPlatform/functions-framework-dart/pull/179">PR#179</a> after 13 days.</li>
+</ul>
+<h3 id="c-firebase"><a class="header" href="#c-firebase">(C) Firebase</a></h3>
+<h4 id="pros-9"><a class="header" href="#pros-9">Pros</a></h4>
+<ul>
+<li>Low operational costs.</li>
+<li>Powerful features, e.g. storage and user authentication.</li>
+</ul>
+<h4 id="cons-9"><a class="header" href="#cons-9">Cons</a></h4>
+<ul>
+<li>Vendor lock-in.</li>
+<li>Business logic in storefront.</li>
+<li>Since Dart is not supported for Firebase's serverless offerings, it is not possible to create custom APIs without adding a new language in the stack (e.g. Python or JavaScript).</li>
+<li>Restrictions on the number of projects which can be created.</li>
+</ul>
+<h3 id="d-heroku"><a class="header" href="#d-heroku">(D) Heroku</a></h3>
+<ul>
+<li>Backend can be implemented with Java/Spring.</li>
+<li>The VM is started when a request is coming in.</li>
+<li>When there is no request for 30 minutes, the VM goes to sleep.</li>
+</ul>
+<h4 id="pros-10"><a class="header" href="#pros-10">Pros</a></h4>
+<ul>
+<li>Simple deployment process.</li>
+<li>Keeps to door open for an on-premise deployment.</li>
+<li>No operational cost.</li>
+</ul>
+<h4 id="cons-10"><a class="header" href="#cons-10">Cons</a></h4>
+<ul>
+<li>The free plan is limited to 512 MB (this should be sufficient for quite a while, though).</li>
+<li>Also the next standard plans are limited to 512 MB. And getting more RAM for a production environment would be very expensive.</li>
+<li>The idea to use Dart for both the backend and the frontend needs to be discarded.</li>
+<li>Uses Postgres as preferred database while MySQL is already in use in Kirpal Sagar.</li>
+</ul>
+<h3 id="e-google-app-enginge"><a class="header" href="#e-google-app-enginge">(E) Google App Enginge</a></h3>
+<ul>
+<li>Backend can be implemented with Java/Spring.</li>
+<li>It is possible to (auto?) scale to the app instances to zero when they are not used.</li>
+</ul>
+<h4 id="pros-11"><a class="header" href="#pros-11">Pros</a></h4>
+<ul>
+<li>Simple deployment process.</li>
+<li>Keeps to door open for an on-premise deployment.</li>
+<li>Supports MySQL via CloudSQL</li>
+</ul>
+<h4 id="cons-11"><a class="header" href="#cons-11">Cons</a></h4>
+<ul>
+<li>The idea to use Dart for both the backend and the frontend needs to be discarded.</li>
+</ul>
+<h4 id="references-17"><a class="header" href="#references-17">References</a></h4>
+<ul>
+<li><a href="https://medium.com/google-cloud/scaling-google-app-engine-to-no-instances-or-maybe-just-1-37be4e8d4230">Scaling Google App Engine to No Instances (or maybe just 1) | by drew | Google Cloud - Community | Medium</a></li>
+<li><a href="https://stackoverflow.com/questions/51272392/how-to-scale-down-to-0-instances-in-gae-standard-go">google app engine - How to scale down to 0 instances in GAE Standard Go - Stack Overflow</a></li>
+<li><a href="https://serverfault.com/questions/985231/gae-automatic-scaling-does-not-scale-down-to-0">google cloud platform - GAE automatic scaling does not scale down to 0 - Server Fault</a></li>
+</ul>
+<h2 id="decision-2"><a class="header" href="#decision-2">Decision</a></h2>
+<ul>
+<li>AWS Lambda requires too much learning and creates too much vendor lock-in.</li>
+<li>Google Cloud Functions via the Dart functions framework created too much risk because it may never be production ready.</li>
+<li>Using Firebase creates vendor lock-in and moves all the business logic in the frontend.</li>
+<li>Heroku is applicable but they don't offer temporary high-performance VMs.</li>
+<li>Google App Engine offers hosting of Java/Spring applications on high-performance VMs which can scale down to zero instances.</li>
+</ul>
+<p>So, it seems like it will be better to use a classic Java/Spring backend instead of a cutting-edge serverless backend.
+Google App Engine seems like a good fit in terms of features and price.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="use-flutter-as-framework-for-frontend"><a class="header" href="#use-flutter-as-framework-for-frontend">Use Flutter as framework for frontend</a></h1>
+<h2 id="alternatives-3"><a class="header" href="#alternatives-3">Alternatives</a></h2>
+<h3 id="a-apache-wicket"><a class="header" href="#a-apache-wicket">(A) Apache Wicket</a></h3>
+<h4 id="pros-12"><a class="header" href="#pros-12">Pros</a></h4>
+<ul>
+<li>Powerful framework to create Java based web applications.</li>
+<li>Relativly small learning curve for new contributors.</li>
+<li>Supports the reaction of a well designed, modular page structure.</li>
+<li>Very active community.</li>
+<li>The framework is time-tested and stable.</li>
+</ul>
+<h4 id="cons-12"><a class="header" href="#cons-12">Cons</a></h4>
+<ul>
+<li>Adding pages with highly dynamic content requires JavaScript which is possible to be hooked into Wicket applications but this gets more and more complicated and thus goes against the goal of maximum simplicity of the source code. </li>
+<li>Very small community.</li>
+</ul>
+<h3 id="b-vaadin"><a class="header" href="#b-vaadin">(B) Vaadin</a></h3>
+<h4 id="pros-13"><a class="header" href="#pros-13">Pros</a></h4>
+<ul>
+<li>Powerful framework to create Java based web applications.</li>
+</ul>
+<h4 id="cons-13"><a class="header" href="#cons-13">Cons</a></h4>
+<ul>
+<li>It is hard to write the Vaadin apps using TDD.</li>
+<li>Comprehensive testing of Vaadin apps requires their enterprise plan which costs too much for this project and is not suitable for open source contributors.</li>
+</ul>
+<h3 id="c-flutter"><a class="header" href="#c-flutter">(C) Flutter</a></h3>
+<p>Flutter is a frontend framework which started out for mobile devices and now supports also web and desktop applications.</p>
+<h4 id="pros-14"><a class="header" href="#pros-14">Pros</a></h4>
+<ul>
+<li>There is a very large community around Flutter.</li>
+<li>Enables professional designs without complex CSS.</li>
+<li>Has a high potential to become one of the next mainstream UI frameworks.</li>
+</ul>
+<h4 id="cons-14"><a class="header" href="#cons-14">Cons</a></h4>
+<ul>
+<li>The web and desktop support is not yet mature.</li>
+</ul>
+<h2 id="decision-3"><a class="header" href="#decision-3">Decision</a></h2>
+<p>Only with Flutter it is possible to create user interfaces for the web, mobile devices, and the desktop.
+This is essential because of the tiny size of the development team.
+Even though Flutter Web and desktop support is rather new, it works and will surely become better and better over time.
+That's why it seems like Flutter is the best choice for this project.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="quality-requirements"><a class="header" href="#quality-requirements">Quality Requirements</a></h1>
-<h2 id="references-10"><a class="header" href="#references-10">References</a></h2>
+<h2 id="references-18"><a class="header" href="#references-18">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-10/">https://docs.arc42.org/section-10/</a></li>
 </ul>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="risks-and-technical-debt"><a class="header" href="#risks-and-technical-debt">Risks and Technical Debt</a></h1>
-<h2 id="references-11"><a class="header" href="#references-11">References</a></h2>
+<ol>
+<li><a href="11_risks-and-technical-debt/./ivory-tower/index.html">Ivory tower</a></li>
+<li><a href="11_risks-and-technical-debt/./truck-factor/index.html">Truck factor</a></li>
+<li><a href="11_risks-and-technical-debt/./laws-and-regulations/index.html">Laws and regulations</a></li>
+</ol>
+<h2 id="references-19"><a class="header" href="#references-19">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-11/">https://docs.arc42.org/section-11/</a></li>
 </ul>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="ivory-tower"><a class="header" href="#ivory-tower">Ivory tower</a></h1>
+<p><a href="https://ksch-workflows.github.io">K.S.C.H. Workflows</a> might be an ivory tower solution which doesn't fulfil the needs of the KSCH staff.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="truck-factor"><a class="header" href="#truck-factor">Truck factor</a></h1>
+<p>The <a href="https://ksch-workflows.github.io">K.S.C.H. Workflows</a> project might come to a hold when a project member is hit by the proverbial truck.</p>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="laws-and-regulations"><a class="header" href="#laws-and-regulations">Laws and regulations</a></h1>
+<p><a href="https://ksch-workflows.github.io">K.S.C.H. Workflows</a> might violate legal regulation.</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="glossary"><a class="header" href="#glossary">Glossary</a></h1>
-<h2 id="references-12"><a class="header" href="#references-12">References</a></h2>
+<h2 id="references-20"><a class="header" href="#references-20">References</a></h2>
 <ul>
 <li><a href="https://docs.arc42.org/section-12/">https://docs.arc42.org/section-12/</a></li>
 </ul>
