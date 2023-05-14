@@ -12,10 +12,10 @@
 - [Crosscutting Concepts](./08_crosscutting-concepts/index.md)
 - [Architectural Decisions](./09_architectural-decisions/index.md)
   - [2021](./09_architectural-decisions/2021/index.md)
-    - [Backend architecture](./09_architectural-decisions/2021/05/08/backend-architecture/index.md) |
-    - [Java vs. Kotlin](./09_architectural-decisions/2021/03/07/java-vs-kotlin/index.md) |
-    - [Backend technology](./09_architectural-decisions/2021/03/05/backend-technoglogy/index.md) |
-    - [Frontend technology](./09_architectural-decisions/2021/03/05/frontend-technology/index.md) |
+    - [Backend architecture](./09_architectural-decisions/2021/05/08/backend-architecture/index.md)
+    - [Java vs. Kotlin](./09_architectural-decisions/2021/03/07/java-vs-kotlin/index.md)
+    - [Backend technology](./09_architectural-decisions/2021/03/05/backend-technoglogy/index.md)
+    - [Frontend technology](./09_architectural-decisions/2021/03/05/frontend-technology/index.md)
 - [Quality Requirements](./10_quality-requirements/index.md)
 - [Risks and Technical Debt](./11_risks-and-technical-debt/index.md)
   - [Ivory tower](./11_risks-and-technical-debt/ivory-tower/index.md)
