@@ -1,8 +1,8 @@
 # 2021
 
-| **Date**   | **Subject** |
-|------------|-------------|
-| 05.03.2021 | [Backend technology](./2021/03/05/backend-technoglogy/index.md) |
-| 05.03.2021 | [Frontend technology](./2021/03/05/frontend-technology/index.md) |
-| 07.03.2021 | [Java vs. Kotlin](./2021/03/07/java-vs-kotlin/index.md) |
-| 08.05.2021 | [Backend architecture](./2021/05/08/backend-architecture/index.md) |
+| **Date**   | **Subject** | **Summary** |
+|------------|-------------|-------------|
+| 05.03.2021 | [Backend technology](./backend-technoglogy/index.md) | Use Google App Engine for the deployment of the staging environment |
+| 05.03.2021 | [Frontend technology](./frontend-technology/index.md) | Use Flutter as framework for frontend |
+| 07.03.2021 | [Java vs. Kotlin](./java-vs-kotlin/index.md) | Use Java instead of Kotlin |
+| 08.05.2021 | [Backend architecture](./backend-architecture/index.md) | Java application architecture style |
