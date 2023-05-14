@@ -4,14 +4,23 @@
 - [Constraints](./02_constraints/index.md)
 - [Context and Scope](./03_context-and-scope/index.md)
 - [Solution Strategy](./04_solution-strategy/index.md)
+  - [Domain Driven Design](./04_solution-strategy/ddd/index.md)
   - [OpenAPI](./04_solution-strategy/openapi/index.md)
 - [Building Block View](./05_building-block-view/index.md)
 - [Runtime View](./06_runtime-view/index.md)
 - [Deployment View ](./07_deployment-view/index.md)
 - [Crosscutting Concepts](./08_crosscutting-concepts/index.md)
 - [Architectural Decisions](./09_architectural-decisions/index.md)
+  - [2021](./09_architectural-decisions/2021/index.md)
+    - [Backend architecture](./09_architectural-decisions/2021/05/08/backend-architecture/index.md) |
+    - [Java vs. Kotlin](./09_architectural-decisions/2021/03/07/java-vs-kotlin/index.md) |
+    - [Backend technology](./09_architectural-decisions/2021/03/05/backend-technoglogy/index.md) |
+    - [Frontend technology](./09_architectural-decisions/2021/03/05/frontend-technology/index.md) |
 - [Quality Requirements](./10_quality-requirements/index.md)
 - [Risks and Technical Debt](./11_risks-and-technical-debt/index.md)
+  - [Ivory tower](./11_risks-and-technical-debt/ivory-tower/index.md)
+  - [Truck factor](./11_risks-and-technical-debt/truck-factor/index.md)
+  - [Laws and regulations](./11_risks-and-technical-debt/laws-and-regulations/index.md)
 - [Glossary](./12_glossary/index.md)
 
 [Imprint](./imprint/index.md)
