@@ -6,14 +6,12 @@ This repository contains the architecture documentation for the K.S.C.H. Workflo
 
 ### Pre-commit hook
 
+`.git/hooks/pre-commit`:
+
 ```sh
 #!/bin/bash
 
 /path/to/architecture/dev/render.sh
-```
-
-```
-chmod +x /path/to/architecture/dev/render.sh
 ```
 
 ## References
