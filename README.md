@@ -15,6 +15,16 @@ This repository contains the architecture documentation for the K.S.C.H. Workflo
 git add docs/
 ```
 
+### Post-commit hook
+
+`.git/hooks/post-commit`:
+
+```sh
+#!/bin/bash
+
+git push
+```
+
 ## References
 
 - https://arc42.org/overview
