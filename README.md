@@ -12,6 +12,7 @@ This repository contains the architecture documentation for the K.S.C.H. Workflo
 #!/bin/bash
 
 /path/to/architecture/dev/render.sh
+git add docs/
 ```
 
 ## References
