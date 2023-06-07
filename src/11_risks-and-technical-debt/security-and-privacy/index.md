@@ -5,6 +5,5 @@ According to the [openEHR system overview](https://specifications.openehr.org/re
 - Mis-identification of patients
 - inappropriate access
 - malicious theft
-- viruses, worms, denial of service attacks etc.;
+- viruses, worms, denial of service attacks etc.
 - failures in software resulting in clinical errors
-
