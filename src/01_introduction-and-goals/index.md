@@ -6,13 +6,15 @@ For the time being it should be considered as academic endevour, aimed at learni
 
 ## Quality goals
 
-- The software needs to be reliable. Thus the source code should have maximum simplicity.
-- The software needs to be simple to operate, so that the KSCH staff can operate is by themselves.
-- The software needs to be fast.
-- There should be no vendor lock-in so that the KSCH doesn't have a strong binding dependency on any external company.
+Out of the quality attributes classified by the ISO 25010 standard, the following three are the most important:
+
+| **Quality goal** | **Description** |
+|---|---|
+| Maintainability  | The system can be extended, corrected, and adapted to changes in the environment and requirements.  |
+| Correctness | The system delivers functionality according to the explicit and implicit requirements. |
+| Security | Confidentiality, integretry, and availability. |
 
 ## References
-
 
 - https://blog.crisp.se/2016/03/16/perlundholm/continuous-discovery-and-validation
 - https://dev.to/janux_de/building-a-greenfield-hospital-information-system-with-java-spring-boot-apache-wicket-and-gradle-4np1
