@@ -13,7 +13,12 @@ For the time being it should be considered as academic endevour, aimed at learni
 
 ## References
 
-- [https://docs.arc42.org/section-1/](https://docs.arc42.org/section-1/)
+
 - https://blog.crisp.se/2016/03/16/perlundholm/continuous-discovery-and-validation
 - https://dev.to/janux_de/building-a-greenfield-hospital-information-system-with-java-spring-boot-apache-wicket-and-gradle-4np1
 - [Building a Greenfield Hospital Information System with Java, Spring Boot, Apache Wicket and Gradle | dev.to](https://dev.to/janux_de/building-a-greenfield-hospital-information-system-with-java-spring-boot-apache-wicket-and-gradle-4np1)
+
+**arc42**
+
+- [https://docs.arc42.org/section-1/](https://docs.arc42.org/section-1/)
+- [Introduction and Goals | dokchess.de/en](https://www.dokchess.de/en/01_introduction/)

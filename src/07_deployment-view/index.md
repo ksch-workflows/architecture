@@ -38,4 +38,7 @@ It takes care e.g. care of log storage and alerts.
 
 ## References
 
+**arc42**
+
 - [https://docs.arc42.org/section-7/](https://docs.arc42.org/section-7/)
+- [Deployment View | dokchess.de/en](https://www.dokchess.de/en/07_deploymentview/)

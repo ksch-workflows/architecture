@@ -22,4 +22,8 @@ API token aquired via an OAuth 2.1 authorization server.
 
 ## References
 
+**arc42**
+
 - [https://docs.arc42.org/section-5/](https://docs.arc42.org/section-5/)
+- [Building Block View | dokchess.de/en](https://www.dokchess.de/en/05_buildingblockview/)
+
