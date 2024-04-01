@@ -12,6 +12,7 @@
 - [Crosscutting Concepts](./08_crosscutting-concepts/index.md)
 - [Architectural Decisions](./09_architectural-decisions/index.md)
   - [2024](./09_architectural-decisions/2024/index.md)
+    - [Replace MySQL with Postgres](./09_architectural-decisions/2024/postgres/index.md)
     - [Archive Flutter Web app](./09_architectural-decisions/2024/flutter-web-app/index.md)
   - [2021](./09_architectural-decisions/2021/index.md)
     - [Backend architecture](./09_architectural-decisions/2021/backend-architecture/index.md)
