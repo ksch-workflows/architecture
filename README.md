@@ -28,3 +28,7 @@ git push
 ## References
 
 - https://arc42.org/overview
+
+## License
+
+[KSCH Workflows architecture documentation](https://ksch-workflows.github.io/architecture/) by [KS-Plus e.V.](https://www.ks-plus.org) is licensed under [CC BY 4.0![](https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1)![](https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1)](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
