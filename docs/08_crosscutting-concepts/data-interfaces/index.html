@@ -150,9 +150,9 @@
                     <main>
                         <h1 id="data-interfaces"><a class="header" href="#data-interfaces">Data interfaces</a></h1>
 <h2 id="motivation"><a class="header" href="#motivation">Motivation</a></h2>
-<p>In Spring applications it is possible to use the same class type for the deserialization of payload of HTTP requests and database persistence. The may become a problem if not all properties of the type should be accessible on the API. Also it may raise security concerns. And following the ideas of DDD, the entities should represent the business domain and its rules. If the entity is also containing the necessary annotations for the HTTP serialization/deserialization and database serialization/deserialization, the business rules are mixed up and become harder and harder to understand as the application grows over the years.</p>
+<p>In Spring applications it is possible to use the same class type for the deserialization of payload of HTTP requests and database persistence. This may become a problem if not all properties of the type should be accessible on the API. Also, it may raise security concerns. And following the ideas of DDD, the entities should represent the business domain and its rules. If the entity also contains the necessary annotations for the HTTP serialization/deserialization and database serialization/deserialization, the business rules are mixed up with those concerns and become harder to understand as the application grows over the years.</p>
 <h2 id="data-interfaces-1"><a class="header" href="#data-interfaces-1">Data interfaces</a></h2>
-<p>In KSCH Workflows, each module has a subproject called &quot;api&quot; where interfaces of data classes reside. Those interfaces contain only the getter methods for the properties of the data classes. The may be part of event types that are also part of the &quot;api&quot; subproject. Or potentially also paramters and return types for API services.</p>
+<p>In KSCH Workflows, each module has a subproject called &quot;api&quot; where interfaces of data classes reside. Those interfaces contain only the getter methods for the properties of the data classes. They may be part of event types that are also part of the &quot;api&quot; subproject. Or potentially also parameters and return types for API services.</p>
 <pre><code class="language-java">public interface Patient {
     UUID getId();
     String getName();
@@ -164,8 +164,8 @@
 }
 </code></pre>
 <h2 id="data-interface-implementation"><a class="header" href="#data-interface-implementation">Data interface implementation</a></h2>
-<p>Most data interfaces will have three implementations: (1) the <em>entity</em> class for application core, (2) the <em>data access object</em> for the persitence layer, and (3) the <em>data transfer object</em> for the web layer.</p>
-<p>This approach provides a clear separation of concerns where each class has a distinct, single responsibility. However, it comes at the cost of requiring mapping code between at the layer boundaries. The preferred way to implement this is without any third-party packages but simple static factory methods.</p>
+<p>Most data interfaces will have three implementations: (1) the <em>entity</em> class for the application core, (2) the <em>data access object</em> for the persistence layer, and (3) the <em>data transfer object</em> for the web layer.</p>
+<p>This approach provides a clear separation of concerns where each class has a distinct, single responsibility. However, it comes at the cost of requiring mapping code at the layer boundaries. The preferred way to implement this is without any third-party packages but with simple static factory methods.</p>
 <pre><code class="language-java">@Getter
 @Builder
 // ...

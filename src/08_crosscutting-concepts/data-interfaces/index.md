@@ -2,11 +2,11 @@
 
 ## Motivation
 
-In Spring applications it is possible to use the same class type for the deserialization of payload of HTTP requests and database persistence. The may become a problem if not all properties of the type should be accessible on the API. Also it may raise security concerns. And following the ideas of DDD, the entities should represent the business domain and its rules. If the entity is also containing the necessary annotations for the HTTP serialization/deserialization and database serialization/deserialization, the business rules are mixed up and become harder and harder to understand as the application grows over the years.
+In Spring applications it is possible to use the same class type for the deserialization of payload of HTTP requests and database persistence. This may become a problem if not all properties of the type should be accessible on the API. Also, it may raise security concerns. And following the ideas of DDD, the entities should represent the business domain and its rules. If the entity also contains the necessary annotations for the HTTP serialization/deserialization and database serialization/deserialization, the business rules are mixed up with those concerns and become harder to understand as the application grows over the years.
 
 ## Data interfaces
 
-In KSCH Workflows, each module has a subproject called "api" where interfaces of data classes reside. Those interfaces contain only the getter methods for the properties of the data classes. The may be part of event types that are also part of the "api" subproject. Or potentially also paramters and return types for API services.
+In KSCH Workflows, each module has a subproject called "api" where interfaces of data classes reside. Those interfaces contain only the getter methods for the properties of the data classes. They may be part of event types that are also part of the "api" subproject. Or potentially also parameters and return types for API services.
 
 ```java
 public interface Patient {
@@ -22,9 +22,9 @@ public interface Patient {
 
 ## Data interface implementation
 
-Most data interfaces will have three implementations: (1) the _entity_ class for application core, (2) the _data access object_ for the persitence layer, and (3) the _data transfer object_ for the web layer.
+Most data interfaces will have three implementations: (1) the _entity_ class for the application core, (2) the _data access object_ for the persistence layer, and (3) the _data transfer object_ for the web layer.
 
-This approach provides a clear separation of concerns where each class has a distinct, single responsibility. However, it comes at the cost of requiring mapping code between at the layer boundaries. The preferred way to implement this is without any third-party packages but simple static factory methods.
+This approach provides a clear separation of concerns where each class has a distinct, single responsibility. However, it comes at the cost of requiring mapping code at the layer boundaries. The preferred way to implement this is without any third-party packages but with simple static factory methods.
 
 
 ```java
