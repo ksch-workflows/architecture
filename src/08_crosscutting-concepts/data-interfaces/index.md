@@ -8,6 +8,18 @@ In Spring applications it is possible to use the same class type for the deseria
 
 In KSCH Workflows, each module has a subproject called "api" where interfaces of data classes reside. Those interfaces contain only the getter methods for the properties of the data classes. The may be part of event types that are also part of the "api" subproject. Or potentially also paramters and return types for API services.
 
+```java
+public interface Patient {
+    UUID getId();
+    String getName();
+    Integer getAge();
+    Gender getGender();
+    String getPhoneNumber();
+    String getResidentialAddress();
+    String getPatientCategory();
+}
+```
+
 ## Data interface implementation
 
 Most data interfaces will have three implementations: (1) the _entity_ class for application core, (2) the _data access object_ for the persitence layer, and (3) the _data transfer object_ for the web layer.
