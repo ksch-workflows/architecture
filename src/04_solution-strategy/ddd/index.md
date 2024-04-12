@@ -60,3 +60,6 @@ However, other possible terms for this design idea, e.g. "Bean", might also invo
 - https://www.reddit.com/r/learnjava/comments/b2h3pm/differences_between_java_bean_entity_class_dao/
 - https://www.martinfowler.com/bliki/AnemicDomainModel.html
 - https://en.wikipedia.org/wiki/Data_access_object
+- https://ddd-book.karthiks.in/
+- https://vaadin.com/blog/ddd-part-2-tactical-domain-driven-design
+- https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/seedwork-domain-model-base-classes-interfaces

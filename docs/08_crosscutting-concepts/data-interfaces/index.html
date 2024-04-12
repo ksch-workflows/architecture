@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Data interfaces - K.S.C.H. Workflows Architecture</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="../../favicon.svg">
+        <link rel="shortcut icon" href="../../favicon.png">
+        <link rel="stylesheet" href="../../css/variables.css">
+        <link rel="stylesheet" href="../../css/general.css">
+        <link rel="stylesheet" href="../../css/chrome.css">
+        <link rel="stylesheet" href="../../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../../highlight.css">
+        <link rel="stylesheet" href="../../tomorrow-night.css">
+        <link rel="stylesheet" href="../../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "../../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item affix "><a href="../../overview/index.html">Overview</a></li><li class="chapter-item "><a href="../../01_introduction-and-goals/index.html"><strong aria-hidden="true">1.</strong> Introduction and Goals</a></li><li class="chapter-item "><a href="../../02_constraints/index.html"><strong aria-hidden="true">2.</strong> Constraints</a></li><li class="chapter-item "><a href="../../03_context-and-scope/index.html"><strong aria-hidden="true">3.</strong> Context and Scope</a></li><li class="chapter-item "><a href="../../04_solution-strategy/index.html"><strong aria-hidden="true">4.</strong> Solution Strategy</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../04_solution-strategy/ddd/index.html"><strong aria-hidden="true">4.1.</strong> Domain Driven Design</a></li><li class="chapter-item "><a href="../../04_solution-strategy/openapi/index.html"><strong aria-hidden="true">4.2.</strong> OpenAPI</a></li></ol></li><li class="chapter-item "><a href="../../05_building-block-view/index.html"><strong aria-hidden="true">5.</strong> Building Block View</a></li><li class="chapter-item "><a href="../../06_runtime-view/index.html"><strong aria-hidden="true">6.</strong> Runtime View</a></li><li class="chapter-item "><a href="../../07_deployment-view/index.html"><strong aria-hidden="true">7.</strong> Deployment View </a></li><li class="chapter-item expanded "><a href="../../08_crosscutting-concepts/index.html"><strong aria-hidden="true">8.</strong> Crosscutting Concepts</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../../08_crosscutting-concepts/data-interfaces/index.html" class="active"><strong aria-hidden="true">8.1.</strong> Data interfaces</a></li></ol></li><li class="chapter-item "><a href="../../09_architectural-decisions/index.html"><strong aria-hidden="true">9.</strong> Architectural Decisions</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../09_architectural-decisions/2024/index.html"><strong aria-hidden="true">9.1.</strong> 2024</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../09_architectural-decisions/2024/postgres/index.html"><strong aria-hidden="true">9.1.1.</strong> Replace MySQL with Postgres</a></li><li class="chapter-item "><a href="../../09_architectural-decisions/2024/flutter-web-app/index.html"><strong aria-hidden="true">9.1.2.</strong> Archive Flutter Web app</a></li></ol></li><li class="chapter-item "><a href="../../09_architectural-decisions/2021/index.html"><strong aria-hidden="true">9.2.</strong> 2021</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../09_architectural-decisions/2021/backend-architecture/index.html"><strong aria-hidden="true">9.2.1.</strong> Backend architecture</a></li><li class="chapter-item "><a href="../../09_architectural-decisions/2021/java-vs-kotlin/index.html"><strong aria-hidden="true">9.2.2.</strong> Java vs. Kotlin</a></li><li class="chapter-item "><a href="../../09_architectural-decisions/2021/backend-technoglogy/index.html"><strong aria-hidden="true">9.2.3.</strong> Backend technology</a></li><li class="chapter-item "><a href="../../09_architectural-decisions/2021/frontend-technology/index.html"><strong aria-hidden="true">9.2.4.</strong> Frontend technology</a></li></ol></li></ol></li><li class="chapter-item "><a href="../../10_quality-requirements/index.html"><strong aria-hidden="true">10.</strong> Quality Requirements</a></li><li class="chapter-item "><a href="../../11_risks-and-technical-debt/index.html"><strong aria-hidden="true">11.</strong> Risks and Technical Debt</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../../11_risks-and-technical-debt/security-and-privacy/index.html"><strong aria-hidden="true">11.1.</strong> Security and privacy</a></li><li class="chapter-item "><a href="../../11_risks-and-technical-debt/laws-and-regulations/index.html"><strong aria-hidden="true">11.2.</strong> Laws and regulations</a></li><li class="chapter-item "><a href="../../11_risks-and-technical-debt/truck-factor/index.html"><strong aria-hidden="true">11.3.</strong> Truck factor</a></li><li class="chapter-item "><a href="../../11_risks-and-technical-debt/ivory-tower/index.html"><strong aria-hidden="true">11.4.</strong> Ivory tower</a></li></ol></li><li class="chapter-item "><a href="../../12_glossary/index.html"><strong aria-hidden="true">12.</strong> Glossary</a></li><li class="chapter-item affix "><a href="../../imprint/index.html">Imprint</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">K.S.C.H. Workflows Architecture</h1>
+
+                    <div class="right-buttons">
+                        <a href="../../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/ksch-workflows/architecture/issues" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/ksch-workflows/architecture/issues/new?title&#x3D;[src/08_crosscutting-concepts/data-interfaces/index.md]" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="data-interfaces"><a class="header" href="#data-interfaces">Data interfaces</a></h1>
+<h2 id="motivation"><a class="header" href="#motivation">Motivation</a></h2>
+<p>In Spring applications it is possible to use the same class type for the deserialization of payload of HTTP requests and database persistence. The may become a problem if not all properties of the type should be accessible on the API. Also it may raise security concerns. And following the ideas of DDD, the entities should represent the business domain and its rules. If the entity is also containing the necessary annotations for the HTTP serialization/deserialization and database serialization/deserialization, the business rules are mixed up and become harder and harder to understand as the application grows over the years.</p>
+<h2 id="data-interfaces-1"><a class="header" href="#data-interfaces-1">Data interfaces</a></h2>
+<p>In KSCH Workflows, each module has a subproject called &quot;api&quot; where interfaces of data classes reside. Those interfaces contain only the getter methods for the properties of the data classes. The may be part of event types that are also part of the &quot;api&quot; subproject. Or potentially also paramters and return types for API services.</p>
+<h2 id="data-interface-implementation"><a class="header" href="#data-interface-implementation">Data interface implementation</a></h2>
+<p>Most data interfaces will have three implementations: (1) the <em>entity</em> class for application core, (2) the <em>data access object</em> for the persitence layer, and (3) the <em>data transfer object</em> for the web layer.</p>
+<p>This approach provides a clear separation of concerns where each class has a distinct, single responsibility. However, it comes at the cost of requiring mapping code between at the layer boundaries. The preferred way to implement this is without any third-party packages but simple static factory methods.</p>
+<pre><code class="language-java">@Getter
+@Builder
+// ...
+public class PatientEntity implements Patient {
+
+    private final UUID id;
+
+    private final String name;
+
+    // ...
+
+    public static PatientEntity from(Patient patient) {
+        return PatientEntity.builder()
+            .id(patient.getId())
+            .name(patient.getName())
+            .age(patient.getAge())
+            .gender(patient.getGender())
+            .phoneNumber(patient.getPhoneNumber())
+            .residentialAddress(patient.getResidentialAddress())
+            .patientCategory(patient.getPatientCategory())
+            .build();
+    }
+}
+</code></pre>
+<h2 id="testing"><a class="header" href="#testing">Testing</a></h2>
+<p>When manual mapping of dozens of properties in multiple places is required, it comes with the risk of forgetting one or the other property. This can be mitigated by creating objects with all fields propagated with random data with the help of <a href="https://www.instancio.org">Instancio</a> and then checking if the object created with the <code>from</code> factory method equals the original object.</p>
+<pre><code class="language-java">public class PatientEntityTest {
+
+    @Test
+    @DisplayName(&quot;Should create patient entity from data interface&quot;)
+    void test_from_factory_happy_path() {
+        var originalPatientEntity = Instancio.create(PatientEntity.class);
+
+        var clonedPatientEntity = PatientEntity.from(originalPatientEntity);
+
+        assertThat(clonedPatientEntity).isEqualTo(originalPatientEntity);
+    }
+}
+</code></pre>
+<h2 id="references"><a class="header" href="#references">References</a></h2>
+<ul>
+<li>https://cinish.medium.com/java-consider-static-factory-methods-when-you-want-to-provide-ability-to-create-instances-of-2a4755e66424</li>
+<li>https://thorben-janssen.com/dont-expose-entities-in-api/</li>
+<li>https://softwareengineering.stackexchange.com/questions/390084/is-there-a-reason-to-define-an-interface-for-a-pure-data-class</li>
+<li>https://www.reddit.com/r/Kotlin/comments/s6utca/return_interface_instead_of_data_class/</li>
+<li>https://discuss.kotlinlang.org/t/data-interfaces/25278/4</li>
+<li>https://docs.spring.io/spring-framework/reference/core/validation/convert.html</li>
+<li>https://www.petrikainulainen.net/programming/spring-framework/spring-from-the-trenches-using-type-converters-with-spring-mvc/</li>
+<li>https://github.com/vbauer/houdini</li>
+</ul>
+<p><strong>Data classes</strong></p>
+<ul>
+<li>https://github.com/lets-data/letsdata-data-interface</li>
+<li>https://openjdk.org/projects/amber/design-notes/data-classes-historical-1</li>
+<li>https://medium.com/androiddevelopers/data-classes-the-classy-way-to-hold-data-ab3b11ea4939</li>
+</ul>
+<p><strong>DDD</strong></p>
+<ul>
+<li>https://ksch-workflows.github.io/architecture/04_solution-strategy/ddd/index.html</li>
+<li>https://martinfowler.com/bliki/AnemicDomainModel.html</li>
+<li>https://stackoverflow.com/questions/2352654/should-domain-entities-be-exposed-as-interfaces-or-as-plain-objects</li>
+<li>https://deviq.com/domain-driven-design/shared-kernel</li>
+</ul>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../../08_crosscutting-concepts/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../../09_architectural-decisions/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../../08_crosscutting-concepts/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../../09_architectural-decisions/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../../elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="../../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="../../book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
