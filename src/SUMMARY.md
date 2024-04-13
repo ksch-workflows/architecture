@@ -4,6 +4,7 @@
 - [Constraints](./02_constraints/index.md)
 - [Context and Scope](./03_context-and-scope/index.md)
 - [Solution Strategy](./04_solution-strategy/index.md)
+  - [Majestic Monolith](./04_solution-strategy/majestic-monolith/index.md)
   - [Domain Driven Design](./04_solution-strategy/ddd/index.md)
   - [OpenAPI](./04_solution-strategy/openapi/index.md)
 - [Building Block View](./05_building-block-view/index.md)
