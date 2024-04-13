@@ -13,5 +13,6 @@ git-repository-url = "https://github.com/ksch-workflows/architecture/issues"
 edit-url-template = "https://github.com/ksch-workflows/architecture/issues/new?title=[{path}]"
 
 [output.html.fold]
+default-theme = "rust"
 enable = true
 level = 0
