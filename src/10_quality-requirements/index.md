@@ -1,5 +1,9 @@
 # Quality Requirements
 
+## Truck factor
+
+TBD
+
 ## References
 
 **arc42**

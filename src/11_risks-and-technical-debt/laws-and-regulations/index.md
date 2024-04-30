@@ -1,8 +1,7 @@
 # Laws and regulations
 
-## Risk
-
-[K.S.C.H. Workflows](https://ksch-workflows.github.io) might violate legal regulations.
+- Violation of legal regulations
+- Unawareness of legal regulations
 
 ## Mitigation strategy
 
